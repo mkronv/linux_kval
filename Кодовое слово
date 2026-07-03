@@ -1,0 +1,58 @@
+1 REST-API – Высоконагруженные веб-сервисы: Python/JavaScript, Django, Node.js, Postman, PostgreSQL, ClamAV, Wireshark
+
+2 FLUTTER-DART – Кроссплатформенные мобильные приложения: Flutter, Dart, Android Studio, эмулятор, ClamAV
+
+3 UNITY-CSHARP – 3D-игры для ПК и консолей: Unity, C#, Blender, Git, защита от эксплойтов
+
+4 DEVOPS-CICD – Автоматизация сборки и развертывания: Jenkins, Docker, Prometheus/Grafana, VS Code
+
+5 JAVA-SPRING – Корпоративное Java-ПО для банка: IntelliJ IDEA, JDK, Tomcat, Maven, защита от уязвимостей
+
+6 ELECTRON-DESKTOP – Кросс-платформенные настольные приложения: Electron, electron-builder, VS Code, безопасное 
+хранение учётных данных
+
+7 MLFLOW-GPU – Анализ данных и машинное обучение с GPU: Jupyter, PyTorch, MLflow, CUDA/cuDNN, защита данных
+
+8 WEBPACK-SPA – Современные SPA-приложения: React/Angular/Vue, Node.js, Webpack/Vite, MongoDB, защита от XSS/CSRF
+
+9 DOTNET-DOCKER – Корпоративные решения на .NET: Visual Studio, .NET SDK, MS SQL Server, Docker, сканирование зависимостей
+10 IOT-MQTT – Интернет вещей (IoT): MQTT, Node-RED, симулятор устройств, AWS/Azure IoT, сертификаты
+
+11 EMBEDDED-ARM – Встроенное ПО для микроконтроллеров: GCC ARM, QEMU, JTAG/SWD, контроль целостности
+
+12 VR-AR-SDK – Дополненная и виртуальная реальность: Unity, AR/VR SDK (Oculus/HTC/HoloLens), Blender, защита данных
+
+13 DEVSECOPS – Безопасность CI/CD конвейера: SAST/DAST/SCA (OWASP ZAP), Docker, управление уязвимостями
+
+14 SELENIUM-QA – Автоматизированное тестирование: Selenium, pytest, эмуляторы, нагрузочное тестирование (Locust)
+
+15 ANSIBLE-BACKUP – Серверная инфраструктура (администрирование): Ansible, Prometheus/Grafana, KVM, restic, аутентификация
+
+16 DICOM-POSTGRES – Медицинское ПО (DICOM, чувствительные данные): PostgreSQL, pydicom, шифрование, аудит (HIPAA/GDPR)
+
+17 CAN-BUS – Автомобильные информационно-развлекательные системы: CAN-utils, симулятор CAN, AUTOSAR, ISO 26262
+
+18 OPENSSL-BANK – Финансовые приложения для банка: Java EE, OpenSSL, GnuPG, Oracle DB, PCI DSS, двухфакторная аутентификация
+
+19 LOCUST-LOAD – Многопользовательские онлайн-игры: C++/Python, Locust, Nginx, защита от DDoS, мониторинг
+
+20 OPENCV-IPCAM – Системы компьютерного зрения для видеонаблюдения: OpenCV, IP-камеры, CUDA, защита видеоданных
+
+21 FREECAD-CAD – Системы автоматизированного проектирования (САПР): FreeCAD, параметрическое моделирование, защита ИС
+22 SPEECH-SDK – Голосовое управление и распознавание речи: Audacity, SpeechRecognition, голосовые ассистенты, защита голосовых данных
+
+23 SMART-HOME – Умный дом (IoT): Home Assistant, Zigbee/Z-Wave, эмуляция, шифрование данных
+
+24 UNITY-AR – Промышленные AR-решения: Unity, Inkscape, Blender, промышленные AR-гарнитуры, защита данных
+
+25 SCADA-FACTORY – Цифровые фабрики и SCADA: Node-RED, OPC UA, SCADA, визуализация, защита промышленных сетей
+
+26 NLP-DIALOG – Чат-боты и виртуальные помощники: Rasa, NLTK, NLP-модели, защита персональных данных
+
+27 GRAFANA-ENERGY – SCADA-системы для энергетики: Grafana, Prometheus, IEC 61850/DNP3, визуализация энергосетей
+
+28 BIOMETRIC-CV – Биометрические системы идентификации: OpenCV, CUDA, биометрические камеры, защита биоданных
+
+29 WMS-WAREHOUSE – WMS-системы для складов: Java, PostgreSQL, RFID/штрих-коды, LibreOffice Calc, симуляция склада
+
+30 ITS-TRANSPORT – Интеллектуальные транспортные системы: Python, Pandas, Folium, Plotly, QGIS, прогнозирование, защита данных
