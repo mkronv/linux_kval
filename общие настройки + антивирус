@@ -1,0 +1,101 @@
+# Установка и настройка ssh
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl enable --now ssh
+sudo systemctl status ssh
+
+# удаленный доступ к активной сессии
+настройки -> общий доступ -> включить флаг общий доступ сверху -> удалённый рабочий стол -> включить и настроить аутентификацию
+ 
+
+# базовое программное обеспечение
+
+vim: sudo apt install vim
+
+nano: sudo apt install nano
+
+libreoffice: sudo apt install libreoffice
+gcc: sudo apt install gcc g++
+
+# виртуальный принтер
+pdf: sudo apt install printer-driver-cups-pdf
+Куда нажимать в Ubuntu (пошагово):
+  1. Откройте «Настройки» (Settings): Меню → Settings или значок шестерёнки.
+  2. Слева выберите «Printers» (Принтеры).
+  3. Нажмите «Add Printer» (Добавить принтер).
+  4. Выберите «Print to File» / «Virtual PDF Printer» / «CUPS-PDF».
+  5. Нажмите «Add» (Добавить).
+
+
+# резервное копирование
+Установка Timeshift
+sudo apt update
+sudo apt install timeshift
+Создание резервной копии
+sudo timeshift --create
+Просмотр списка созданных снимков
+sudo timeshift –list
+
+можно сделать в графическом интерфейсе Timeshift, там всё интуитивно понятно
+
+
+# установочный образ системы
+Установка Cubic
+sudo apt-add-repository ppa:cubic-wizard/release
+sudo apt update
+sudo apt install cubic
+
+дальше всё можно показать в визуалке
+
+либо
+
+lsblk
+sudo dd if=/dev/sda of=/tmp/system\_image.iso bs=4M status=progress
+(для демонстрации)
+ls -lh /tmp/system\_image.iso 
+
+# группы пользователей
+Создание новой группы
+sudo groupadd имя_группы
+Добавление пользователя в группу
+`sudo usermod -aG имя_группы имя_пользователя`
+демонстрация
+getent group название группы
+
+Куда нажимать в Ubuntu (пошагово):
+  1. Настройки → Users (Пользователи).
+  2. Нажмите «Unlock» (Разблокировать) — введите пароль администратора.
+  3. «Add User» (Добавить пользователя) → задайте имя и пароль.
+  4. Для групп: установите gnome-system-tools и откройте «Пользователи и группы».
+
+
+# точки восстановления
+Создание точки восстановления
+sudo timeshift --create --comments "Перед обновлением"
+
+грубо говоря те жже снимки системы, можно показать как в задании с резервным копированием в timeshift
+
+# Настройка журнала мониторинга
+проверяем статус, должен быть активен
+sudo systemctl status systemd-journald
+
+демонстрация логов
+sudo tail -f /var/log/auth.log 
+
+настройка фильтрации (выводит только критические ошибки системы за текущую сессию)
+journalctl -p err..emerg -b
+
+
+#антивирус
+sudo apt install ufw
+ufw version
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw enable
+sudo ufw status verbose
+
+
+
